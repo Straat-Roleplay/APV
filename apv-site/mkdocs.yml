@@ -5,19 +5,21 @@ site_author: 'SnepCnep'
 repo_url: 'https://github.com/straat-roleplay/apv'
 repo_name: 'apv'
 
-# Congiguration
+# Configuration
 theme:
   name: material
-#   features:
-#     - navigation.tabs
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: green
+      accent: teal
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: green
+      accent: teal
       toggle:
         icon: material/weather-sunny
         name: Switch to system preference
