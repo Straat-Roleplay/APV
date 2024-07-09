@@ -1,0 +1,52 @@
+site_name: Straat Roleplay Wetboek
+site_description: 'Wet en regelgeving van Straat roleplay'
+site_author: 'SnepCnep'
+
+repo_url: 'https://github.com/straat-roleplay/apv'
+repo_name: 'apv'
+
+# Congiguration
+theme:
+  name: material
+#   features:
+#     - navigation.tabs
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+  favicon: image/StraatLogo.png
+  logo: image/StraatLogo.png
+  language: nl
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - header.autohide
+    - toc.follow
+    - content.action.edit
+    - content.action.view
+  extra:
+    analytics:
+      provider: google
+      property: UA-167800475-3
+
+plugins:
+  # - git-revision-date-localized:
+  #     type: timeago
+  #     time_zone: Europe/Amsterdam
+  #     locale: nl
+  #     fallback_to_build_date: false
+  # - search:
+  #     lang: nl
+markdown_extensions:
+  - admonition
+  - attr_list
+nav:
+  - Home: index.md
